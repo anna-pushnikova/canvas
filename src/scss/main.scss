@@ -1,0 +1,30 @@
+@import './blocks/variables.scss';
+@import '~bootstrap/scss/bootstrap';
+@import '~swiper/css/swiper';
+@import '~animate.css/animate';
+@import '~aos/dist/aos';
+@import '~flexslider/flexslider';
+@import 'tiny-slider/dist/tiny-slider';
+
+@import './fonts';
+@import './blocks/header';
+@import './blocks/slider';
+@import './blocks/base';
+@import './blocks/content';
+@import './blocks/features';
+@import './blocks/statistics';
+@import './blocks/works';
+@import './blocks/cta';
+@import './blocks/devices';
+@import './blocks/reviews';
+@import './blocks/blog';
+@import './blocks/team';
+@import './blocks/clients';
+@import './blocks/footer';
+
+
+@import '~simple-line-icons/scss/simple-line-icons';
+
+$simple-line-font-path     : "/fonts/icons/";
+$simple-line-font-family   : "Simple-Line-Icons";
+$simple-line-icon-prefix   : "prefix-";

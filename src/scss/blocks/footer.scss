@@ -1,0 +1,204 @@
+
+
+.footer {
+  color: rgba(255,255,255,.8);
+  background-color: #282828;
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    padding: 4px 0;
+  }
+}
+
+.footer-wrapper {
+  padding: 80px 0;
+}
+
+.footer-logo {
+  display: block;
+  width: 40%;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.footer-text {
+  line-height: 1.7;
+  font-family: Lato,sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+address {
+  margin-bottom: 30px;
+}
+
+.footer-contacts {
+  background-image: url('/images/world-map.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0 0;
+}
+
+.footer-title {
+  color: #484848;
+  margin-bottom: 25px;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 1.5;
+  margin: 0 0 30px;
+  font-family: Poppins,sans-serif;
+}
+
+.footer-link {
+  color: rgba(255,255,255,.8);
+  font-size: 15px;
+  transition: color .3s linear;
+}
+
+.footer-link:before {
+  content: '\e606';
+  font-family: "Simple-Line-Icons";
+  margin-right: 8px;
+  font-size: 10px;
+}
+
+.footer-link:hover {
+  color: #eee;
+  text-decoration: none;
+}
+
+.footer-posts-title {
+  color: #f7f7f7;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.5;
+  font-family: Poppins,sans-serif;
+
+  transition: color .3s linear;
+}
+
+.footer-posts-date {
+  color: #bbb;
+  font-size: 14px;
+  margin: 0 15px 10px 0;
+  font-family: Lato,sans-serif;
+  line-height: 1.5;
+}
+
+.footer-posts-link:hover {
+  text-decoration: none;
+  .footer-posts-title  {
+    color: #1abc9c;
+  }
+}
+
+#footerCounterLeft,
+#footerCounterRight {
+  font-size: 28px;
+  font-weight: 600;
+  font-family: Poppins,sans-serif;
+  color: rgba(255,255,255,.75);
+}
+
+.footer-counter-subtitle {
+  font-size: 14px;
+  color: #eee;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  opacity: .7;
+}
+
+.footer-counter {
+  margin: 0 15px 50px 0;
+}
+
+.footer-subscribe-text {
+  color: #eee;
+  font-size: 14px;
+  margin-bottom: 20px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.footer-social {
+  color: #fff;
+  margin: 0 5px 5px 0;
+  width: 40px;
+  height: 40px;
+  font-size: 25px;
+  line-height: 1.7;
+  border-radius: 3px;
+  text-align: center;
+
+  transition: all .3s linear;
+}
+
+.footer-social:hover {
+  text-decoration: none;
+  opacity: 0.8;
+  color: #fff;
+}
+
+.footer-social-text {
+  color: rgba(255,255,255,.75);
+  font-family: Lato,sans-serif;
+  font-size: 12px;
+  margin-top: 3px;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+
+.reddit {
+  background-color: #ed802f;
+}
+
+
+// Copyright
+
+.copyrights {
+  padding: 40px 0;
+  background-color: #212121;
+  color: rgba(255,255,255,.4);
+  line-height: 1.8;
+  font-size: 14px;
+  font-family: Lato,sans-serif;
+}
+
+.copyright-link {
+  border-bottom-color: rgba(255,255,255,.65);
+  border-bottom: 1px dotted #444;
+  display: inline-block;
+  margin: 0 3px;
+  color: rgba(255,255,255,.4);
+
+  transition: all .3s linear;
+}
+
+.copyright-link:hover {
+  text-decoration: none;
+  color: rgba(255,255,255,.6);
+  border-bottom: 1px solid rgba(255,255,255,.7);
+}
+
+.footer-copyright-link-contacts {
+  display: inline-block;
+  padding: 10px;
+  color: rgba(255,255,255,.65);
+}
+
+.footer-copyright-link-contacts:hover {
+  color: rgba(255,255,255,.9);
+  text-decoration: none;
+}

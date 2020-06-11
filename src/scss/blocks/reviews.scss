@@ -1,0 +1,101 @@
+.reviews {
+  padding: 100px 0px;
+
+  background-image: url('/images/services/home-testi-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+.reviews-heading {
+  margin-bottom: 50px;
+}
+.reviews-header {
+  text-align: center;
+  color: #eee;
+  line-height: 1.5;
+  font-family: Lato,sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+}
+.reviews-header:after {
+  width: 40px;
+  height: 2px;
+  margin: 30px auto 0;
+  content: '';
+  display: block;
+
+  background-color: rgba(255,255,255,.7);
+}
+
+.flexslider {
+  background-color: transparent;
+  border: none;
+}
+
+.reviews-slider-image-container {
+  display: block;
+  width: 72px;
+  height: 72px;
+  margin: 0 auto 20px;
+}
+
+.reviews-slider-image {
+  border-radius: 50%;
+}
+
+.reviews-slider-content-text {
+  font-size: 20px;
+  margin-bottom: 0;
+  font-family: 'pt serif',serif;
+  font-style: italic;
+
+  line-height: 1.8;
+  text-align: center;
+  color: #eee;
+
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.reviews-slider-content-text:before,
+.reviews-slider-content-text:after {
+  content: '"'
+}
+
+.reviews-slider-content-meta {
+  margin-top: 15px;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: Lato,sans-serif;
+  color: #eee;
+
+  span {
+    font-size: 14px;
+    color: #aaa;
+    display: block;
+    font-weight: 400;
+    text-align: center;
+    text-transform: none;
+  }
+}
+
+.reviews-slider-content-meta:before {
+  content: '\2013';
+  margin-right: 2px;
+}
+
+.flex-control-nav li a {
+  background-color: #1abc9c;
+  opacity: .5;
+  transition: all .3s linear;
+}
+
+.flex-control-nav a:hover,
+.flex-control-nav a.flex-active {
+  background-color: #1abc9c !important;
+  opacity: 1;
+}
+

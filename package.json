@@ -1,0 +1,40 @@
+{
+  "name": "canvas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "watch": "webpack --mode development --watch",
+    "serve": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.0",
+    "aos": "^3.0.0-beta.6",
+    "bootstrap": "^4.5.0",
+    "flexslider": "^2.7.2",
+    "jquery": "^3.5.1",
+    "rellax": "^1.12.1",
+    "scss": "^0.2.4",
+    "simple-line-icons": "^2.4.1",
+    "swiper": "^5.4.2",
+    "tiny-slider": "^2.9.2"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^6.0.2",
+    "css-loader": "^3.5.3",
+    "cssnano": "^4.1.10",
+    "html-webpack-plugin": "^4.3.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.14.1",
+    "postcss-loader": "^3.0.0",
+    "raw-loader": "^4.0.1",
+    "sass-loader": "^8.0.2",
+    "terser-webpack-plugin": "^3.0.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  }
+}

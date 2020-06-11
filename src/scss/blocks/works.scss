@@ -1,0 +1,153 @@
+.works {
+  background-color: #282828;
+}
+
+.works-header {
+  padding: 60px 0;
+  color: #eee;
+  font-size: 28px;
+  margin-bottom: 0;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  font-family: Poppins,sans-serif;
+}
+
+.works-header:after {
+  content: '';
+  display: block;
+  margin-top: 30px;
+  width: 40px;
+  background-color: #eee;
+  height: 2px;
+  margin: 30px auto 0;
+}
+
+.works-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.works-image-link {
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  display: block;
+  transition: all .3s ease-in-out;
+}
+
+.bg-overlay {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: 5;
+  opacity: 0;
+  
+  transition: all .3s ease-in-out;
+  background-color: rgba(51, 51, 51, 0.418);
+}
+
+.works-image:hover {
+  .bg-overlay {
+    opacity: 1;
+  }
+  .works-image-link,
+  .bg-overlay {
+    transform: translateY(-10%);
+  }
+
+  .works-overlay {
+    opacity: 1;
+    animation: slideInUp; 
+    animation-duration: .3s;
+    animation-fill-mode: both;
+  }
+}
+
+.bg-overlay-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.works-overlay {
+  opacity: 0;
+  background-color: #383838;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 6;
+  padding: 15px;
+  color: #bbb;
+
+  animation: slideOutDown; 
+  animation-duration: .3s;
+  transition: all .3s;
+
+
+  a {
+    color: #bbb;
+    transition: all .3s linear;
+  }
+
+  a:hover {
+    color: #eee;
+    text-decoration: none;
+  }
+}
+
+.works-title a {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #eee;
+  font-family: Poppins,sans-serif;
+
+  transition: all .3s linear;
+}
+
+.works-title a:hover {
+  text-decoration: none;
+  color: #1abc9c;
+}
+
+.overlay-icon {
+  background-color: #f8f9fa;
+  display: block;
+  width: 40px;
+  height: 40px;
+  line-height: 2.4;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 50%;
+  transition: all .3s ease;
+  color: #343a40;
+
+  transition: all .3s linear;
+}
+
+.overlay-icon:hover {
+  background-color: #dae0e5;
+  color: #343a40;
+  text-decoration: none;
+}
+
+.play {
+  padding-left: 4px;
+}

@@ -1,0 +1,53 @@
+.content {
+  background-color: #383838 !important;
+  color: #eee;
+  position: relative;
+}
+
+.content-wrapper {
+  padding-top: 80px;
+}
+
+.content-images {
+  position: relative;
+}
+
+.content-browser {
+  width: 100%;
+}
+
+.content-iphone {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.content-heading {
+  margin-bottom: 70px;
+}
+
+.content-heading:after {
+  position: absolute;
+  content: '';
+  width: 45px;
+  height: 2px;
+  background-color: rgba(255,255,255,0.7);
+  margin-top: 30px;
+}
+
+.content-title {
+  font-size: 32px;
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+.content-text {
+  font-size: 20px;
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  line-height: 1.8;
+}
