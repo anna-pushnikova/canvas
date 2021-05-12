@@ -18,7 +18,7 @@
     "rellax": "^1.12.1",
     "scss": "^0.2.4",
     "simple-line-icons": "^2.4.1",
-    "swiper": "^5.4.2",
+    "swiper": "^6.5.1",
     "tiny-slider": "^2.9.2"
   },
   "devDependencies": {
